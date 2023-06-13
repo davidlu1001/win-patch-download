@@ -1,0 +1,9 @@
+version: '3'
+services:
+  win-patch-download:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: win-patch-download
+    volumes:
+      - ./data:/app/data  # Optional: Mount a volume for data persistence

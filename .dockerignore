@@ -1,0 +1,11 @@
+# Ignore virtual environment files
+.venv/
+Pipfile*
+pdm.lock
+.pdm*
+
+# Ignore project configuration files
+pyproject.toml
+
+# Ignore data directory
+./data/
